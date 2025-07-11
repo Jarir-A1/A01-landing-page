@@ -24,6 +24,7 @@
     cursor: pointer;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 50px;
 
  }
  
@@ -77,6 +78,7 @@ nav{
     text-align: center;
     font-size:65px;
     font-weight: 600; 
+    
 
 
 }
@@ -103,7 +105,7 @@ div img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 100px;
 }
 
 .joined{
@@ -133,6 +135,7 @@ div img{
 .top-join{
     background-color: #8890f757;
     border-radius: 20px;
+    margin: 100px;
 }
 
 .star{
@@ -168,7 +171,7 @@ div img{
 .review-card{
     height: 150px;
     width: 300px;
-    background-color: rgb(209, 198, 198);
+    background-color: rgb(245, 245, 245);
     border-radius: 20px;
     padding: 20px;
     margin-top: 0;
@@ -241,4 +244,8 @@ a{
 .footer-text{
     /* display: flex; */
     text-align: center;
+}
+
+.golo{
+    border-radius: 40px;
 }
