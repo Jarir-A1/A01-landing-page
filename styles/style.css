@@ -1,0 +1,244 @@
+/* fonts */
+.raleway-common {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Shared styles
+ */
+
+ .color{
+    color: #4E47FF;
+ }
+.btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    height: 48px;
+    width: 132px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+ }
+ 
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .bottom-margin{
+    margin-bottom: 10px;
+ }
+ .font{
+    font-size: 15px;
+    color: #898898;
+    
+ }
+
+ 
+
+
+
+
+
+
+ /* unique styles
+  */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+
+.header-text{
+    text-align: center;
+    font-size:65px;
+    font-weight: 600; 
+
+
+}
+
+div img{
+    width: 403px;
+    height: 332px;
+}
+
+.see{
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.explore{
+   font-size: 24px;
+}
+.launch-btn{
+    width: 229px;
+    height: 48px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.joined{
+    font-size: 38px;
+    font-weight: 600;
+    padding: 30px 0 0 0;
+    
+}
+
+.sub-joined{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.join{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-join div h3{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+
+}
+
+.top-join{
+    background-color: #8890f757;
+    border-radius: 20px;
+}
+
+.star{
+    width: 10px;
+    height: 9px;
+}
+
+.new-font{
+    font-size: 12px
+}
+
+.avatar{
+    width: 20px;
+    height: 20px;
+
+}
+
+.review{
+    font-size: 10px;
+    /* background-color: rgb(232, 226, 226); */
+    margin: 40px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bot-review{
+    display: flex;
+    gap: 20px;
+}
+.review-card{
+    height: 150px;
+    width: 300px;
+    background-color: rgb(209, 198, 198);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 0;
+
+}
+
+.what{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.challenge{
+    
+}
+
+.top-what{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.let{
+    font-size:80px;
+    font-weight: 800;
+}
+.small-font{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type="email"], input[type="text"], textarea{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(240, 234, 234);
+    padding: 12px 20px;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 50px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.second-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.logox{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+ }
+
+.footer-text{
+    /* display: flex; */
+    text-align: center;
+}
